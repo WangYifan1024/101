@@ -1,20 +1,21 @@
-<!文档类型html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<元名称=“视口”内容=”宽度=设备宽度，初始比例=1.0“>
-<title>我用存储库名称</title>替换了我
-</head>
-<body>
-<h1>Hello World从存储库名称</h1>
-<！——衣服粘贴下一行-->
-<h4 id="id01">AAAA</h4>
-<h5 id="id02">AAAA</h5>
-</body>
-<scri pt>
-常日期=新日期（）；
-const日期1=日期。toLocaleStri ng("en-uk", {
-小时12小时：真实，工作日：“短”，小时：“2位数”，分钟：“2位”，第
-二个数字：“2位”，月：“2位数”，年：“数字”，天：“2位数”})；
-文件getElementById("id01").innerHTML = "" + date1; 文件getElementById("id02").innerHTML =“”+Date。现在（）；</脚本>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my REPLACE ME with repository name </title>
+  </head>
+  <body>
+    <h1>Hello World from  REPLACE ME with repository name </h1>
+ <!-- ipaddresses paste next line -->
+   <h4 id="id01">AAAA</h4>
+   <h5 id="id02">AAAA</h5>
+  </body>
+<script>
+   const date = new Date();
+   const date1 = date.toLocaleString("en-uk", {
+  	hour12: true,  weekday: "short",  hour: "2-digit",   minute: "2-digit",  second: "2-digit",
+  	month: "2-digit",  year: "numeric",  day: "2-digit"  });
+      document.getElementById("id01").innerHTML = "" + date1;
+      document.getElementById("id02").innerHTML = "" + Date.now();</script>
 </html>
